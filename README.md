@@ -11,7 +11,7 @@ A multi-agent production studio and the practice arm of my MA thesis. A human di
 - **Agents:** Google ADK, with LiteLLM routing across frontier models. Stronger models lead high-judgment stages; lighter models handle mechanical work.
 - **State, not prose:** canonical story state lives in Postgres as relational spines (subjects, beats, panels) with stable IDs. Agents use typed domain operations instead of generic file editing; summary views like the World Sheet and Story Map are derived on read.
 - **Review with a human in charge:** reviewing agents return structured findings rather than editing directly. The human accepts, rejects, or applies them, and rejected points are suppressed in application code, outside the model's turn.
-- **Provenance:** intent records whether each choices were made by an agent or a person.
+- **Provenance:** the studio records whether each creative choice was made by an agent or a person.
 - **Lessons I write about:** tool routing (models reach for generic tools unless docstrings say clearly when *not* to use them), cost and latency trade-offs in model routing, and why structured artifacts beat long prose for multi-agent work.
 
 #### 📄 Research
